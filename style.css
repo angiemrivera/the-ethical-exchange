@@ -1,0 +1,635 @@
+/* reset css applied */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* above the fold styling START */
+
+nav {
+  float: right;
+  background-color: #7c5071;
+  font-family: "Montserrat", sans-serif;
+  color: #dccdc6;
+  width: 100%;
+  padding-bottom: 23px;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    display: inline-block;
+    background-color: #7c5071;
+}
+nav ul li {
+  display: inline-block;
+  background-color: #7c5071;
+  text-align: right;
+  text-indent: 150px;
+  padding-bottom: 23px;
+  padding-top: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: darkslateblue;
+}
+
+h1 {
+  background-color: #f2f1f3;
+  font-family: "Playfair Display", serif;
+  color: #1f1837;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 120px 0 30px 0;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+p {
+  color: #dccdc6;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+}
+
+.abf-wrapper {
+  background-color: #1f1837;
+  background-image: url(https://res.cloudinary.com/dojibaluk/image/upload/v1650387631/Group_15_ojtckk.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 10%;
+  background-position-y: 100%;
+  background-position-x: 75%;
+  padding-top: 40px;
+}
+
+Button {
+  background-color: #e9d6d0;
+  border-radius: 28px;
+  border: 1px solid #e9d6d0;
+  display: inline-block;
+  cursor: pointer;
+  color: #1f1837;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #d6d6d6;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+Button:hover {
+  background-color: #e9d6d0;
+}
+Button:active {
+  position: relative;
+  top: 1px;
+}
+button a {
+  text-decoration: none;
+  color: #1f1837;
+}
+
+/* above the fold styling CLOSE */
+
+.shopper-wrapper {
+  background-color: #e7e0da;
+  background-image: url(https://res.cloudinary.com/dojibaluk/image/upload/v1650340896/Group_14_onll9t.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-position-x: 40%;
+  padding-bottom: 90px;
+}
+
+.options {
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top:70px;
+  margin-bottom: 70px;
+}
+
+.card1, .card2, .card3 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f1837;
+  text-align: left;
+  padding: 40px 20px 20px 30px;
+  box-sizing: border-box;
+}
+
+.youwant {
+  color: #1f1837;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.closet, .rack, .store {
+  line-height: 20px;
+  color: #1f1837;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.icon1, .icon2, .icon3 {
+  margin-top: 20px;
+}
+
+.icon3 {
+  padding-left: 50px;
+}
+
+.popular {
+  margin-bottom: 50px;
+  color: darkred;
+}
+.myButton4 {
+	background-color:#3d7b8a;
+	border-radius:13px;
+	border:1px solid #3d7b8a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: 20px;
+}
+.myButton4:hover {
+	background-color:#3d7b8a;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color:#93192f;
+	border-radius:9px;
+	border:1px solid #93192f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #93192f;
+  margin-bottom: 150px;
+  margin-left: 55px;
+}
+.myButton2:hover {
+	background-color:#93192f;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton3 {
+  background-color: #3d7b8a;
+  border-radius: 13px;
+  border: 1px solid #3d7b8a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 30px;
+}
+.myButton3:hover {
+  background-color: #3d7b8a;
+}
+.myButton3:active {
+  position: relative;
+  top: 1px;
+}
+
+/* quote wrapper styling START */
+
+.quote-wrapper {
+  background-color: #7c5071;
+  font-size: 1.75rem;
+  background-image: url(https://res.cloudinary.com/dojibaluk/image/upload/v1649997389/Group_6_1_r70m7z.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 101%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.orsola {
+  background-color: #7c5071;
+  font-family: "Montserrat", sans-serif;
+  line-height: 44px;
+}
+
+/* quote wrapper styling CLOSE */
+
+/* resource wrapper styling START */
+
+.resource-wrapper {
+  background-color: greenyellow;
+  font-family: "Playfair Display", serif;
+  background-color: #F7F5F6;
+  background-image: url(https://res.cloudinary.com/dojibaluk/image/upload/v1651631651/Group_9_m9i3bc.svg);
+  background-repeat: no-repeat;
+  background-position-x: 60%;
+   background-position-y: 10%;
+}
+
+.explore{
+  text-align:left;
+  font-size: 1.75rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: #1F1837;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.online {
+  color: #931930;
+  
+}
+
+.local {
+  color: #931930;
+}
+
+.local, .online {
+  font-size: 1.2rem;
+  padding: 10px 10px 10px 10px;
+    background-color: #C7AAC0;
+}
+
+.locallist, .onlinelist {
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  color: #1F1837;
+}
+
+span {
+  color: blue;
+  text-decoration: underline;
+}
+/* resource wrapper styling CLOSE */
+
+
+/* blog wrapper styling START */
+
+.blog-wrapper {
+  background-color: #C7AAC0;
+  font-family: "Playfair Display", serif;
+}
+
+.blog {
+  font-size: 2.25rem;
+
+}
+
+.articles {
+  text-align: left;
+  padding-bottom: 85px;
+  color: #1f1837;
+}
+
+.article1, .article2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+ 
+}
+/* blog wrapper styling CLOSE */
+
+
+/* reward wrapper styling START */
+.rewards-wrapper {
+  background-color: #EEE9E5;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 50px;
+}
+
+.contribute {
+  font-size: 2.2rem;
+  color: #7C5071;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.explain {
+  color: #7C5071;
+  padding-bottom: 35px;
+}
+
+.business, .outdoor, .trendy, .dressy {
+  padding: 30px 30px 30px 30px;
+}
+
+.code {
+  color: #7C5071;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+/* reward wrapper styling CLOSE */
+
+
+
+/* about wrapper styling START */
+.about-wrapper {
+  background-color: #3C3470;
+  font-family: "Playfair Display", serif;
+  background-image: url(https://res.cloudinary.com/dojibaluk/image/upload/v1650340923/marginalia-1248_1_vvz2p9.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 70%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about {
+  font-size: 2.5rem;
+  color: #EEE9E5;
+  margin-top: -1%;
+}
+
+.college {
+  text-align: left;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+/* about wrapper styling CLOSE */
+
+
+/* footer wrapper styling OPEN */
+.footer-wrapper {
+  background-color: #7C5071;
+  font-family: "Playfair Display", serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.done{
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+
+.thanks{
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+/* footer wrapper styling CLOSE */
+
+
+/* BASIC LAYOUT SYSTEM FOR A GENERIC 12 COL GRID
+
+Assumes that parent is "display: flex;" and the "justify-content: space-between;"" distributes available space between elements, and the flex wrap is set to active;
+
+*/
+
+header,
+section {
+  min-width: 320px;
+  max-width: 1145px;
+  margin: 0 auto;
+
+  /* LAYOUT STYLES*/
+  display: flex;
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between;
+}
+
+/*=====================================================
+LAYOUT UNITS FOR 12 COLUMN GRID 
+=======================================================
+*/
+
+.one-unit {
+  flex-basis: calc(100% / 12 - 1%);
+}
+
+.two-unit {
+  flex-basis: calc((100% / 12) * 2 - 1%);
+}
+
+.three-unit {
+  flex-basis: calc((100% / 12) * 3 - 1%);
+}
+
+.four-unit {
+  flex-basis: calc((100% / 12) * 4 - 1%);
+}
+
+.five-unit {
+  flex-basis: calc((100% / 12) * 5 - 1%);
+}
+
+.six-unit {
+  flex-basis: calc((100% / 12) * 6 - 1%);
+}
+
+.seven-unit {
+  flex-basis: calc((100% / 12) * 7 - 1%);
+}
+
+.eight-unit {
+  flex-basis: calc((100% / 12) * 8 - 1%);
+}
+
+.nine-unit {
+  flex-basis: calc((100% / 12) * 9 - 1%);
+}
+
+.ten-unit {
+  flex-basis: calc((100% / 12) * 10 - 1%);
+}
+
+.eleven-unit {
+  flex-basis: calc((100% / 12) * 11 - 1%);
+}
+
+.twelve-unit {
+  flex-basis: calc((100% / 12) * 12);
+}
+
+/*=====================================================
+RIGHT GAP UNITS FOR 12 COLUMN GRID 
+=======================================================
+*/
+
+.one-unit-gap-r {
+  margin-right: calc(100% / 12);
+}
+
+.two-unit-gap-r {
+  margin-right: calc((100% / 12) * 2);
+}
+
+.three-unit-gap-r {
+  margin-right: calc((100% / 12) * 3);
+}
+
+.four-unit-gap-r {
+  margin-right: calc((100% / 12) * 4);
+}
+
+.five-unit-gap-r {
+  margin-right: calc((100% / 12) * 5);
+}
+
+.six-unit-gap-r {
+  margin-right: calc((100% / 12) * 6);
+}
+
+.seven-unit-gap-r {
+  margin-right: calc((100% / 12) * 7);
+}
+
+.eight-unit-gap-r {
+  margin-right: calc((100% / 12) * 8);
+}
+
+.nine-unit-gap-r {
+  margin-right: calc((100% / 12) * 9);
+}
+
+.ten-unit-gap-r {
+  margin-right: calc((100% / 12) * 10);
+}
+
+.eleven-unit-gap-r {
+  margin-right: calc((100% / 12) * 11);
+}
+
+.twelve-unit-gap-r {
+  margin-right: calc((100% / 12) * 12);
+}
+
+/*=====================================================
+LEFT GAP UNITS FOR 12 COLUMN GRID 
+=======================================================
+*/
+
+.one-unit-gap-l {
+  margin-left: calc(100% / 12);
+}
+
+.two-unit-gap-l {
+  margin-left: calc((100% / 12) * 2);
+}
+
+.three-unit-gap-l {
+  margin-left: calc((100% / 12) * 3);
+}
+
+.four-unit-gap-l {
+  margin-left: calc((100% / 12) * 4);
+}
+
+.five-unit-gap-l {
+  margin-left: calc((100% / 12) * 5);
+}
+
+.six-unit-gap-l {
+  margin-left: calc((100% / 12) * 6);
+}
+
+.seven-unit-gap-l {
+  margin-left: calc((100% / 12) * 7);
+}
+
+.eight-unit-gap-l {
+  margin-left: calc((100% / 12) * 8);
+}
+
+.nine-unit-gap-l {
+  margin-left: calc((100% / 12) * 9);
+}
+
+.ten-unit-gap-l {
+  margin-left: calc((100% / 12) * 10);
+}
+
+.eleven-unit-gap-l {
+  margin-left: calc((100% / 12) * 11);
+}
+
+.twelve-unit-gap-l {
+  margin-left: calc((100% / 12) * 12);
+}
+
+@media only screen and (max-width: 570px) {
+  .one-unit,
+  .two-unit,
+  .three-unit,
+  .four-unit,
+  .five-unit,
+  .six-unit,
+  .sevebn-unit,
+  .eight-unit,
+  .nine-unit,
+  .ten-unit,
+  .eleven-unit,
+  .twelve-unit {
+    flex-basis: 100%;
+  }
+
+  .one-unit-gap-r,
+  .two-unit-gap-r,
+  .three-unit-gap-r,
+  .four-unit-gap-r,
+  .five-unit-gap-r,
+  .six-unit-gap-r,
+  .sevebn-unit-gap-r,
+  .eight-unit-gap-r,
+  .nine-unit-gap-r,
+  .ten-unit-gap-r,
+  .eleven-unit-gap-r,
+  .twelve-unit-gap-r {
+    margin-right: 0;
+  }
+
+  .one-unit-gap-l,
+  .two-unit-gap-l,
+  .three-unit-gap-l,
+  .four-unit-gap-l,
+  .five-unit-gap-l,
+  .six-unit-gap-l,
+  .sevebn-unit-gap-l,
+  .eight-unit-gap-l,
+  .nine-unit-gap-l,
+  .ten-unit-gap-l,
+  .eleven-unit-gap-l,
+  .twelve-unit-gap-l {
+    margin-left: 0;
+  }
+} /* end @media max-widh 400px */
